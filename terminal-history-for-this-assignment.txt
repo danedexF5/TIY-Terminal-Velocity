@@ -1,0 +1,230 @@
+Last login: Mon Apr 11 13:13:26 on ttys000
+➜  ~ git:(master) ✗ git remote add origin git@github.com:danedexF5/TIY-Terminal-Velocity.git
+fatal: remote origin already exists.
+➜  ~ git:(master) ✗ cd
+➜  ~ git:(master) ✗ cd Projects
+➜  Projects git:(master) ✗ git clone git@github.com:danedexF5/TIY-Terminal-Velocity.git
+Cloning into 'TIY-Terminal-Velocity'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+➜  Projects git:(master) ✗ ls
+TIY-Terminal-Velocity cloneExample2         gitTests
+➜  Projects git:(master) ✗ ls > list-projects-directory.txt
+➜  Projects git:(master) ✗ ls
+TIY-Terminal-Velocity       gitTests
+cloneExample2               list-projects-directory.txt
+➜  Projects git:(master) ✗ mv list-projects-directory.txt TIY-Terminal-Velocity
+➜  Projects git:(master) ✗ ls
+TIY-Terminal-Velocity cloneExample2         gitTests
+➜  Projects git:(master) ✗ cd TIY-Terminal-Velocity 
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+list-projects-directory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ ls -al
+total 8
+drwxr-xr-x   4 danedexheimer  staff  136 Apr 11 13:25 .
+drwxr-xr-x   5 danedexheimer  staff  170 Apr 11 13:25 ..
+drwxr-xr-x  10 danedexheimer  staff  340 Apr 11 13:26 .git
+-rw-r--r--   1 danedexheimer  staff   73 Apr 11 13:22 list-projects-directory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ nano TIY-Terminal-Velocity
+➜  TIY-Terminal-Velocity git:(master) ✗ nano
+➜  TIY-Terminal-Velocity git:(master) ✗ cd > workingDIrectory.txt
+➜  ~ git:(master) ✗ cd
+➜  ~ git:(master) ✗ cd ..
+➜  /Users cd
+➜  ~ git:(master) ✗ cd TIY-Terminal-Velocity
+cd: no such file or directory: TIY-Terminal-Velocity
+➜  ~ git:(master) ✗ cd Projects
+➜  Projects git:(master) ✗ ls
+TIY-Terminal-Velocity cloneExample2         gitTests
+➜  Projects git:(master) ✗ cd TIY-Terminal-Velocity
+➜  TIY-Terminal-Velocity git:(master) ✗ mv cd workingDirectory.txt
+mv: cd: No such file or directory
+➜  TIY-Terminal-Velocity git:(master) ✗ touch workingDirectory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ cd > workingDirectory.txt 
+➜  ~ git:(master) ✗ pwd > workingDirectory.txt
+➜  ~ git:(master) ✗ cd Projects               
+➜  Projects git:(master) ✗ cd TIY-Terminal-Velocity 
+➜  TIY-Terminal-Velocity git:(master) ✗ pwd > workingDirectory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+joke.txt                    workingDIrectory.txt
+list-projects-directory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ sudo nano /private/etc/hosts
+Password:
+Sorry, try again.
+Password:
+➜  TIY-Terminal-Velocity git:(master) ✗ cp sudo nano /private/etc/hosts
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+➜  TIY-Terminal-Velocity git:(master) ✗ 
+➜  TIY-Terminal-Velocity git:(master) ✗ cp sudo nano /private/etc/hosts
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+➜  TIY-Terminal-Velocity git:(master) ✗ 
+➜  TIY-Terminal-Velocity git:(master) ✗ cp /private/etc/hosts TIY-Terminal-Velocity
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+TIY-Terminal-Velocity       list-projects-directory.txt
+joke.txt                    workingDIrectory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ ls -al
+total 32
+drwxr-xr-x   7 danedexheimer  staff  238 Apr 11 14:05 .
+drwxr-xr-x   5 danedexheimer  staff  170 Apr 11 13:25 ..
+drwxr-xr-x  10 danedexheimer  staff  340 Apr 11 14:05 .git
+-rw-r--r--   1 danedexheimer  staff  214 Apr 11 14:05 TIY-Terminal-Velocity
+-rw-r--r--   1 danedexheimer  staff   95 Apr 11 13:31 joke.txt
+-rw-r--r--   1 danedexheimer  staff   73 Apr 11 13:22 list-projects-directory.txt
+-rw-r--r--   1 danedexheimer  staff   52 Apr 11 13:49 workingDIrectory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ cd TIY-Terminal-Velocity
+cd: not a directory: TIY-Terminal-Velocity
+➜  TIY-Terminal-Velocity git:(master) ✗ cd ..
+➜  Projects git:(master) ✗ ls
+TIY-Terminal-Velocity cloneExample2         gitTests
+➜  Projects git:(master) ✗ cp /private/etc/hosts TIY-Terminal-Velocity
+➜  Projects git:(master) ✗ ls
+TIY-Terminal-Velocity cloneExample2         gitTests
+➜  Projects git:(master) ✗ cp /private/etc/hosts
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+➜  Projects git:(master) ✗ cp /private/etc/hosts TIY-Terminal-Velocity/hosts
+➜  Projects git:(master) ✗ ls
+TIY-Terminal-Velocity cloneExample2         gitTests
+➜  Projects git:(master) ✗ cd TIY-Terminal-Velocity 
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+TIY-Terminal-Velocity       list-projects-directory.txt
+hosts                       workingDIrectory.txt
+joke.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ man date
+➜  TIY-Terminal-Velocity git:(master) ✗ date -j -f "%a %b %d %T %Z %Y" "`date`" "+%s" date.txt
+1460399339
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+TIY-Terminal-Velocity       list-projects-directory.txt
+hosts                       workingDIrectory.txt
+joke.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ list-projects-directory.txt joke.txt workingDIrectory.txt date.txt > list of txt files.txt
+zsh: command not found: list-projects-directory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ .txt > list of txt files.txt
+zsh: command not found: .txt
+➜  TIY-Terminal-Velocity git:(master) ✗ joke.txt > list of txt files.txt
+zsh: command not found: joke.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ ls > contents.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+TIY-Terminal-Velocity       list
+contents.txt                list-projects-directory.txt
+hosts                       workingDIrectory.txt
+joke.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ TIY-Terminal-Velocity.txt > list of txt files.txt
+zsh: command not found: TIY-Terminal-Velocity.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ ls txt
+ls: txt: No such file or directory
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+TIY-Terminal-Velocity       list
+contents.txt                list-projects-directory.txt
+hosts                       workingDIrectory.txt
+joke.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ cp *.txt list of txt files.txt
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+➜  TIY-Terminal-Velocity git:(master) ✗ touch where-is-my-java.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+➜  TIY-Terminal-Velocity git:(master) ✗ $JAVA
+➜  TIY-Terminal-Velocity git:(master) ✗ $PATH JAVA
+zsh: no such file or directory: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+➜  TIY-Terminal-Velocity git:(master) ✗ PATH JAVA
+zsh: command not found: PATH
+➜  TIY-Terminal-Velocity git:(master) ✗ which JAVA
+/usr/bin/JAVA
+➜  TIY-Terminal-Velocity git:(master) ✗ cp /usr/bin/JAVA where-is-my-java.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ which JAVAC
+/usr/bin/JAVAC
+➜  TIY-Terminal-Velocity git:(master) ✗ cp /usr/bin/JAVAC where-is-my-java.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ git add where-is-my-java.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ git commit -m "where-is-my-java.txt"
+[master (root-commit) b35cc0e] where-is-my-java.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 where-is-my-java.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ git add list of text files.txt
+fatal: pathspec 'of' did not match any files
+➜  TIY-Terminal-Velocity git:(master) ✗ git add list of txt files.txt
+fatal: pathspec 'of' did not match any files
+➜  TIY-Terminal-Velocity git:(master) ✗ git add list of txt files.txt
+fatal: pathspec 'of' did not match any files
+➜  TIY-Terminal-Velocity git:(master) ✗ git add list\ of\ txt\ files.txt
+fatal: pathspec 'list of txt files.txt' did not match any files
+➜  TIY-Terminal-Velocity git:(master) ✗ ls *.txt "list of text files.txt"
+ls: list of text files.txt: No such file or directory
+contents.txt                where-is-my-java.txt
+joke.txt                    workingDIrectory.txt
+list-projects-directory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ ls *.txt > "list of text files.txt"
+➜  TIY-Terminal-Velocity git:(master) ✗ ls
+TIY-Terminal-Velocity       list of text files.txt
+contents.txt                list-projects-directory.txt
+hosts                       where-is-my-java.txt
+joke.txt                    workingDIrectory.txt
+list
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "list of text files.txt
+dquote> "
+fatal: pathspec 'list of text files.txt
+' did not match any files
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "list of text files.txt"
+➜  TIY-Terminal-Velocity git:(master) ✗ git commit -m "list of text files.txt"
+[master cf01131] list of text files.txt
+ 1 file changed, 5 insertions(+)
+ create mode 100644 list of text files.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	TIY-Terminal-Velocity
+	contents.txt
+	hosts
+	joke.txt
+	list
+	list-projects-directory.txt
+	workingDIrectory.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "contents.txt"
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "joke.txt"
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "list-projects-directory.txt"
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "workingDIrectory.txt"
+➜  TIY-Terminal-Velocity git:(master) ✗ git commit -m "contents.txt"
+[master 22a2d29] contents.txt
+ 4 files changed, 15 insertions(+)
+ create mode 100644 contents.txt
+ create mode 100644 joke.txt
+ create mode 100644 list-projects-directory.txt
+ create mode 100644 workingDIrectory.txt
+➜  TIY-Terminal-Velocity git:(master) ✗ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	TIY-Terminal-Velocity
+	hosts
+	list
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "TIY-Terminal-Velocity"
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "hosts"
+➜  TIY-Terminal-Velocity git:(master) ✗ git add "list"
+➜  TIY-Terminal-Velocity git:(master) ✗ git commit m- "TIY-Terminal-Velocity"
+error: pathspec 'm-' did not match any file(s) known to git.
+➜  TIY-Terminal-Velocity git:(master) ✗ git commit -m "TIY-Terminal-Velocity"
+[master 7c76103] TIY-Terminal-Velocity
+ 3 files changed, 18 insertions(+)
+ create mode 100644 TIY-Terminal-Velocity
+ create mode 100644 hosts
+ create mode 100644 list
+➜  TIY-Terminal-Velocity git:(master) git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working directory clean
+➜  TIY-Terminal-Velocity git:(master) 
+
